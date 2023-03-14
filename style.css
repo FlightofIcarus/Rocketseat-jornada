@@ -1,0 +1,192 @@
+:root {
+    --text-primary-color: #FFC700;
+    --text-secundary-color: #fff;
+    --text-terciary-color: #040101;
+    --text-desa-color: #DB2777;
+    --text-eat-color: #5EEAD4;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main {
+    background: #000000 url(/images/bgjornada.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+h3 {
+    color: var(--text-secundary-color);
+    padding-top: 220px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+span{
+    color: var(--text-primary-color);
+}
+
+h1 {
+    color: var(--text-primary-color);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 80px;
+    font-family: 'Emilys Candy', cursive;
+}
+
+p{
+    color: var(--text-secundary-color);
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 84px;
+    margin-top: 8px;
+}
+
+a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 12px 32px;
+    margin-top: 30px;
+    text-transform: uppercase;
+
+}
+
+a:visited a:active {
+    text-decoration: none;
+    
+}
+
+#read {
+    color: var(--text-secundary-color);
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+#play {
+    color: var(--text-terciary-color);
+    background-color: var(--text-primary-color);
+    padding: 12px 32px;
+}
+
+.desafio{
+    background: var(--text-secundary-color) url(images/desafio-bg.png) no-repeat center;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.desafio h1{
+    font-family: 'Cinzel', serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: var(--text-terciary-color);
+    padding-top: 280px;
+
+}
+
+.desafio span {
+    color: var(--text-desa-color);
+    margin: 0;
+    padding: 0;
+
+}
+
+.desafio p {
+    color: var(--text-terciary-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 84px;
+    margin-top: 5px;
+    padding: 0px;
+    
+}
+
+#readm {
+    color: var(--text-terciary-color);
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
+
+#travel {
+    background-color: var(--text-desa-color);
+    border: none;
+    border-radius: 80px;
+    padding: 12px 32px;
+    color: var(--text-secundary-color);
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+}
+
+.desafio2 {
+    background: url(images/desafio2bg.png) no-repeat center;
+    background-size: cover;     
+}
+
+.desafio2 h1{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: var(--text-secundary-color);
+    padding-top: 280px;
+
+}
+
+.desafio2 span {
+    color: var(--text-eat-color);
+    margin: 0;
+    padding: 0;
+
+}
+
+.desafio2 h3 {
+    color: var(--text-secundary-color);
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: -197px;
+    margin-bottom: 128px;
+}
+
+.desafio2 p {
+    color: var(--text-terciary-color);
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 84px;
+    margin-top: 5px;
+    padding: 0px;
+    
+}
+
+#learn {
+    color: var(--text-secundary-color);
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    text-transform: none;
+}
+
+#recipe {
+    background-color: var(--text-eat-color);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 32px;
+    color: var(--text-secundary-color);
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    text-transform: none;
+}
